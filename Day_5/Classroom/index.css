@@ -1,0 +1,121 @@
+:root {
+    --primary-color: rgb(4, 4, 41);
+    --secondary-color: yellow;
+    --button-color: teal;
+    --font-color: rgb(158, 129, 19);
+}
+
+#parent {
+    height: 500px;
+    width: 85%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    border-radius: 6px;
+    margin: auto;
+
+}
+
+.box {
+    margin: 5px;
+}
+#parent>div:nth-child(1) {
+    border-radius: 6px;
+    background-color: var(--primary-color)
+    
+   
+}
+#parent>div:nth-child(2) {
+    border-radius: 6px;
+    background-color: var(--primary-color) ;
+    grid-area: 1/2/2/4;
+
+}
+
+#parent>div:nth-child(3) {
+    border-radius: 6px;
+    background-color: var(--primary-color);
+}
+
+#parent>div:nth-child(4) {
+    border-radius: 6px;
+    background-color: var(--secondary-color);
+}
+
+#parent>div:nth-child(5) {
+    border-radius: 6px;
+    background-color: var(--secondary-color);
+}
+
+#parent>div:nth-child(6) {
+    border-radius: 6px;
+    background-color: var(--secondary-color);
+    grid-area: 2/3/4/5;
+}
+
+#parent>div:nth-child(7) {
+    border-radius: 6px;
+    background-color: rgb(49, 55, 59);
+    grid-area: 3/1/6/2;
+}
+
+#parent>div:nth-child(8) {
+    border-radius: 6px;
+    background-color: rgb(56, 85, 85);
+}
+
+#parent>div:nth-child(9) {
+    border-radius: 6px;
+    background-color: rgb(20, 1, 48);
+ 
+}
+
+#parent>div:nth-child(10) {
+    border-radius: 6px;
+    background-color: rgb(55, 1, 108);
+    grid-area: 4/2/7/3;
+
+}
+
+#parent>div:nth-child(11) {
+    border-radius: 6px;
+    background-color: rgb(33, 44, 44);
+}
+
+#parent>div:nth-child(12) {
+    border-radius: 6px;
+    background-color: rgb(123, 95, 23);
+    grid-area: 4/4/7/5;
+}
+
+#parent>div:nth-child(13) {
+    border-radius: 6px;
+    background-color: rgb(110, 33, 61);
+}
+
+#parent>div:nth-child(14) {
+    border-radius: 6px;
+    background-color: gray;
+   
+}
+
+.box {
+    /* width: 200px;
+    height: 150px; */
+    border: 1px solid red ;
+}
+
+@media (max-width : 1000px) {
+    #parent{
+    grid-template-columns : repeat(3, 1fr);
+    height: 1000px;
+   }
+
+   #parent>div:nth-child(1) {
+    border-radius: 6px;
+    background-color: var(--button-color)
+
+}
+   
+}

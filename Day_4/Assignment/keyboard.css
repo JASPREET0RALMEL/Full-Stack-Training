@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+   
+}
+
+#keyboard {
+    border: 5px solid black;
+    border-radius: 4px;
+    height: 400px;
+    width: 80%;
+    background-color: rgb(36, 33, 33);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 100px;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-left: 0;
+
+}
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-left: 0;
+
+
+}
+.row3 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-left: 0;
+
+
+}
+.row4 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-left: 0;
+
+
+}
+.row5{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-left: 0;
+
+
+}
+.row6 {
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    margin-left: 0;
+
+
+}
+
+.key1 {
+    border: 2px solid rgb(86, 85, 85) ;
+    border-radius: 4px;
+    box-shadow: 2px;
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    gap: 10px;
+}
+.key {
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;
+    width: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: centre;
+justify-content: center;
+    gap: 10px;
+
+
+}
+
+.key-braces {
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+
+
+
+}    
+
+#one {
+    text-align: top;
+}
+
+#two {
+    text-align: bottom;
+   
+}
+
+.key-esc,.key-ptr {
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 30px;    
+    width: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 5px auto;
+
+}
+
+.key-del {
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 30px;    
+    width: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;    
+    flex-grow: 1;
+    padding: 5px auto;
+}
+
+.wide {
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;    
+    width: 95px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.wider {
+   border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;    
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.widest {
+   border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;    
+    width: 115px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.key-space {
+   border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;    
+    width: 380px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.win {
+  border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;    
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.key-shift {
+  border: 2px solid rgb(86, 85, 85);
+    border-radius: 4px;
+    height: 50px;    
+    width: 125px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
